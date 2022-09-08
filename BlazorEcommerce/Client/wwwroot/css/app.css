@@ -2,6 +2,7 @@
 
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    
 }
 
 h1:focus {
@@ -75,4 +76,8 @@ a, .btn-link {
 
 .media-body {
     flex: 1
+}
+
+.media-img-wrapper {
+    margin: 15px 30px;
 }
