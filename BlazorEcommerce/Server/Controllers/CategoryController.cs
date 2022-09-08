@@ -21,7 +21,7 @@ namespace BlazorEcommerce.Server.Controllers
         }
 
 
-        // GET: api/
+        // GET: api/Category
         [HttpGet]
         public async Task<ActionResult<ServiceResponse<List<Category>>>> GetCategories()
         {

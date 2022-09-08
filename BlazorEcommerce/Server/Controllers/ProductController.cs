@@ -27,31 +27,20 @@ namespace BlazorEcommerce.Server.Controllers
             return Ok(result);
         }
 
-        // GET api/product/:id
+        // GET api/product/:productId
         [HttpGet("{productId}")]
-        public async Task<ActionResult<ServiceResponse<List<Product>>>> GetProduct(int productId)
+        public async Task<ActionResult<ServiceResponse<Product>>> GetProduct(int productId)
         {
             var result = await _productService.GetProductAsync(productId);
             return Ok(result);
         }
 
-
-        // POST api/values
-        [HttpPost]
-        public void Post([FromBody] string value)
+        // GET api/Product/category/:categoryUrl
+        [HttpGet("category/{categoryUrl}")]
+        public async Task<ActionResult<ServiceResponse<List<Product>>>> GetProductsByCategory(string categoryUrl)
         {
-        }
-
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+            var result = await _productService.GetProductsByCategory(categoryUrl);
+            return Ok(result);
         }
     }
 }
