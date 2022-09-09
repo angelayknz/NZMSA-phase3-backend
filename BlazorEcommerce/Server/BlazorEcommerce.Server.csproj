@@ -39,4 +39,10 @@
     <Folder Include="Services\ProductService\" />
     <Folder Include="Services\CategoryService\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Migrations\20220909034528_Update.cs" />
+    <Compile Remove="Migrations\20220909034528_Update.Designer.cs" />
+    <Compile Remove="Validator\WeatherForcastValidator.cs" />
+    <Compile Remove="Validator\ProductValidator.cs" />
+  </ItemGroup>
 </Project>
