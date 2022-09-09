@@ -1,25 +1,36 @@
 ﻿@page "/product/{id:int}"
 @inject IProductService ProductService
+@attribute [Authorize]
 
 @if (product == null)
-    {
-                <span>@message</span>
-    }
-    else
-            {
-                <div class="media">
-                    <div class="media-img-wrapper mr-2">
-                        <img class="media-img" src="@product.ImageUrl" alt="@product.Title" />
-                    </div>
-                    <div class="media-body">
-                        <h2 class="mb-0">@product.Title</h2>
-                        <p>@product.Description</p>
-                        <h4 class="price">
-                            $@product.Price
-                        </h4>
-                    </div>
-                </div>
-            }
+{
+    <span>@message</span>
+}
+else
+{
+    <div class="media">
+        <div class="media-img-wrapper mr-2">
+            <img class="media-img" src="@product.ImageUrl" alt="@product.Title" />
+        </div>
+        <div class="media-body">
+            <h2 class="mb-0">@product.Title</h2>
+            <p>@product.Description</p>
+            <h4 class="price">
+                $@product.Price
+            </h4>
+        </div>
+    </div>
+}
+
+<AuthorizeView>
+    <Authorized>
+        <span>You are authorized :)</span>
+    </Authorized>
+    <NotAuthorized>
+        <span>Opps! You are not authorized to access content :(</span>
+    </NotAuthorized>
+</AuthorizeView>
+
 @code {
     private Product? product = null;
     private string message = string.Empty;
@@ -32,7 +43,7 @@
         message = "Loading product...";
 
         var result = await ProductService.GetProduct(Id);
-        if(!result.Success)
+        if (!result.Success)
         {
             message = result.Message;
         }
