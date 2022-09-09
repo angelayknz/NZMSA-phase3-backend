@@ -9,4 +9,7 @@
   <ItemGroup>
     <SupportedPlatform Include="browser" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="WeatherForcastValidator.cs" />
+  </ItemGroup>
 </Project>
