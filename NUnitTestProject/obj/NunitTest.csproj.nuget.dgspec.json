@@ -1,0 +1,328 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/angela/Desktop/NZMSA/BlazorEcommerce/NUnitTestProject/NunitTest.csproj": {}
+  },
+  "projects": {
+    "/Users/angela/Desktop/NZMSA/BlazorEcommerce/BlazorEcommerce/Client/BlazorEcommerce.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/angela/Desktop/NZMSA/BlazorEcommerce/BlazorEcommerce/Client/BlazorEcommerce.Client.csproj",
+        "projectName": "BlazorEcommerce.Client",
+        "projectPath": "/Users/angela/Desktop/NZMSA/BlazorEcommerce/BlazorEcommerce/Client/BlazorEcommerce.Client.csproj",
+        "packagesPath": "/Users/angela/.nuget/packages/",
+        "outputPath": "/Users/angela/Desktop/NZMSA/BlazorEcommerce/BlazorEcommerce/Client/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/angela/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/angela/Desktop/NZMSA/BlazorEcommerce/BlazorEcommerce/Shared/BlazorEcommerce.Shared.csproj": {
+                "projectPath": "/Users/angela/Desktop/NZMSA/BlazorEcommerce/BlazorEcommerce/Shared/BlazorEcommerce.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Microsoft.AspNetCore.Components.Authorization": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.8, 6.0.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/angela/Desktop/NZMSA/BlazorEcommerce/BlazorEcommerce/Server/BlazorEcommerce.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/angela/Desktop/NZMSA/BlazorEcommerce/BlazorEcommerce/Server/BlazorEcommerce.Server.csproj",
+        "projectName": "BlazorEcommerce.Server",
+        "projectPath": "/Users/angela/Desktop/NZMSA/BlazorEcommerce/BlazorEcommerce/Server/BlazorEcommerce.Server.csproj",
+        "packagesPath": "/Users/angela/.nuget/packages/",
+        "outputPath": "/Users/angela/Desktop/NZMSA/BlazorEcommerce/BlazorEcommerce/Server/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/angela/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/angela/Desktop/NZMSA/BlazorEcommerce/BlazorEcommerce/Client/BlazorEcommerce.Client.csproj": {
+                "projectPath": "/Users/angela/Desktop/NZMSA/BlazorEcommerce/BlazorEcommerce/Client/BlazorEcommerce.Client.csproj"
+              },
+              "/Users/angela/Desktop/NZMSA/BlazorEcommerce/BlazorEcommerce/Shared/BlazorEcommerce.Shared.csproj": {
+                "projectPath": "/Users/angela/Desktop/NZMSA/BlazorEcommerce/BlazorEcommerce/Shared/BlazorEcommerce.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/angela/Desktop/NZMSA/BlazorEcommerce/BlazorEcommerce/Shared/BlazorEcommerce.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/angela/Desktop/NZMSA/BlazorEcommerce/BlazorEcommerce/Shared/BlazorEcommerce.Shared.csproj",
+        "projectName": "BlazorEcommerce.Shared",
+        "projectPath": "/Users/angela/Desktop/NZMSA/BlazorEcommerce/BlazorEcommerce/Shared/BlazorEcommerce.Shared.csproj",
+        "packagesPath": "/Users/angela/.nuget/packages/",
+        "outputPath": "/Users/angela/Desktop/NZMSA/BlazorEcommerce/BlazorEcommerce/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/angela/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/angela/Desktop/NZMSA/BlazorEcommerce/NUnitTestProject/NunitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/angela/Desktop/NZMSA/BlazorEcommerce/NUnitTestProject/NunitTest.csproj",
+        "projectName": "NUnitTestProject",
+        "projectPath": "/Users/angela/Desktop/NZMSA/BlazorEcommerce/NUnitTestProject/NunitTest.csproj",
+        "packagesPath": "/Users/angela/.nuget/packages/",
+        "outputPath": "/Users/angela/Desktop/NZMSA/BlazorEcommerce/NUnitTestProject/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/angela/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/angela/Desktop/NZMSA/BlazorEcommerce/BlazorEcommerce/Client/BlazorEcommerce.Client.csproj": {
+                "projectPath": "/Users/angela/Desktop/NZMSA/BlazorEcommerce/BlazorEcommerce/Client/BlazorEcommerce.Client.csproj"
+              },
+              "/Users/angela/Desktop/NZMSA/BlazorEcommerce/BlazorEcommerce/Server/BlazorEcommerce.Server.csproj": {
+                "projectPath": "/Users/angela/Desktop/NZMSA/BlazorEcommerce/BlazorEcommerce/Server/BlazorEcommerce.Server.csproj"
+              },
+              "/Users/angela/Desktop/NZMSA/BlazorEcommerce/BlazorEcommerce/Shared/BlazorEcommerce.Shared.csproj": {
+                "projectPath": "/Users/angela/Desktop/NZMSA/BlazorEcommerce/BlazorEcommerce/Shared/BlazorEcommerce.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Blazortest": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "bunit": {
+              "target": "Package",
+              "version": "[1.9.8, )"
+            },
+            "bunit.web": {
+              "target": "Package",
+              "version": "[1.9.8, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
