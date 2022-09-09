@@ -50,6 +50,14 @@ namespace BlazorEcommerce.Server.Services.ProductService
 
             return response;
         }
+
+        public async Task<ServiceResponse<Product>> CreateProduct(Product product)
+        {
+            _context.Products.Add(product);
+            await _context.SaveChangesAsync();
+            return new ServiceResponse<Product> { Data = product };
+        }
+
     }
 }
 
