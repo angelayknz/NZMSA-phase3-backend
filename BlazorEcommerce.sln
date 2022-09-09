@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorEcommerce.Client", "B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorEcommerce.Shared", "BlazorEcommerce\Shared\BlazorEcommerce.Shared.csproj", "{6EE0FFF3-13C0-44C4-A558-D817FEBEBA23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{67C44064-0FCE-4C4A-A5C9-59CD5B9B15E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6EE0FFF3-13C0-44C4-A558-D817FEBEBA23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EE0FFF3-13C0-44C4-A558-D817FEBEBA23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EE0FFF3-13C0-44C4-A558-D817FEBEBA23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67C44064-0FCE-4C4A-A5C9-59CD5B9B15E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67C44064-0FCE-4C4A-A5C9-59CD5B9B15E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67C44064-0FCE-4C4A-A5C9-59CD5B9B15E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67C44064-0FCE-4C4A-A5C9-59CD5B9B15E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

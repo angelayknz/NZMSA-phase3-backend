@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "onK5Xr6+w+tse9uistYu09ZbGd9dcAG3shUwNP5Fmu5dvLApkDu9us+++CARcYO0TEkhJtCZAZ63Uw9LUs5b0Q==",
+  "dgSpecHash": "ne9Oz0tv27TMmRY9PqmHd7IeaQwLoBoIfddPfy+kuGzzlQS2SGN5eJecbTAkHp/uVLREZNqFL+2sHfp8dsE6Fw==",
   "success": true,
   "projectFilePath": "/Users/angela/Desktop/NZMSA/BlazorEcommerce/UnitTest/UnitTest.csproj",
   "expectedPackageFiles": [
@@ -12,7 +12,7 @@
     "/Users/angela/.nuget/packages/bunit.core/1.9.8/bunit.core.1.9.8.nupkg.sha512",
     "/Users/angela/.nuget/packages/bunit.web/1.9.8/bunit.web.1.9.8.nupkg.sha512",
     "/Users/angela/.nuget/packages/castle.core/5.1.0/castle.core.5.1.0.nupkg.sha512",
-    "/Users/angela/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
+    "/Users/angela/.nuget/packages/coverlet.collector/3.1.0/coverlet.collector.3.1.0.nupkg.sha512",
     "/Users/angela/.nuget/packages/microsoft.aspnetcore.authorization/6.0.8/microsoft.aspnetcore.authorization.6.0.8.nupkg.sha512",
     "/Users/angela/.nuget/packages/microsoft.aspnetcore.components/6.0.8/microsoft.aspnetcore.components.6.0.8.nupkg.sha512",
     "/Users/angela/.nuget/packages/microsoft.aspnetcore.components.analyzers/6.0.8/microsoft.aspnetcore.components.analyzers.6.0.8.nupkg.sha512",
@@ -23,7 +23,7 @@
     "/Users/angela/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/6.0.0/microsoft.aspnetcore.components.webassembly.authentication.6.0.0.nupkg.sha512",
     "/Users/angela/.nuget/packages/microsoft.aspnetcore.components.webassembly.server/6.0.8/microsoft.aspnetcore.components.webassembly.server.6.0.8.nupkg.sha512",
     "/Users/angela/.nuget/packages/microsoft.aspnetcore.metadata/6.0.8/microsoft.aspnetcore.metadata.6.0.8.nupkg.sha512",
-    "/Users/angela/.nuget/packages/microsoft.codecoverage/17.3.1/microsoft.codecoverage.17.3.1.nupkg.sha512",
+    "/Users/angela/.nuget/packages/microsoft.codecoverage/16.11.0/microsoft.codecoverage.16.11.0.nupkg.sha512",
     "/Users/angela/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/angela/.nuget/packages/microsoft.data.sqlclient/2.1.4/microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "/Users/angela/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.1.1/microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
@@ -58,19 +58,19 @@
     "/Users/angela/.nuget/packages/microsoft.identitymodel.tokens/6.8.0/microsoft.identitymodel.tokens.6.8.0.nupkg.sha512",
     "/Users/angela/.nuget/packages/microsoft.jsinterop/6.0.8/microsoft.jsinterop.6.0.8.nupkg.sha512",
     "/Users/angela/.nuget/packages/microsoft.jsinterop.webassembly/6.0.8/microsoft.jsinterop.webassembly.6.0.8.nupkg.sha512",
-    "/Users/angela/.nuget/packages/microsoft.net.test.sdk/17.3.1/microsoft.net.test.sdk.17.3.1.nupkg.sha512",
+    "/Users/angela/.nuget/packages/microsoft.net.test.sdk/16.11.0/microsoft.net.test.sdk.16.11.0.nupkg.sha512",
     "/Users/angela/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "/Users/angela/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/Users/angela/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
-    "/Users/angela/.nuget/packages/microsoft.testplatform.objectmodel/17.3.1/microsoft.testplatform.objectmodel.17.3.1.nupkg.sha512",
-    "/Users/angela/.nuget/packages/microsoft.testplatform.testhost/17.3.1/microsoft.testplatform.testhost.17.3.1.nupkg.sha512",
+    "/Users/angela/.nuget/packages/microsoft.testplatform.objectmodel/16.11.0/microsoft.testplatform.objectmodel.16.11.0.nupkg.sha512",
+    "/Users/angela/.nuget/packages/microsoft.testplatform.testhost/16.11.0/microsoft.testplatform.testhost.16.11.0.nupkg.sha512",
     "/Users/angela/.nuget/packages/microsoft.win32.primitives/4.3.0/microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "/Users/angela/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
     "/Users/angela/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "/Users/angela/.nuget/packages/moq/4.18.2/moq.4.18.2.nupkg.sha512",
     "/Users/angela/.nuget/packages/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
     "/Users/angela/.nuget/packages/newtonsoft.json/9.0.1/newtonsoft.json.9.0.1.nupkg.sha512",
-    "/Users/angela/.nuget/packages/nuget.frameworks/5.11.0/nuget.frameworks.5.11.0.nupkg.sha512",
+    "/Users/angela/.nuget/packages/nuget.frameworks/5.0.0/nuget.frameworks.5.0.0.nupkg.sha512",
     "/Users/angela/.nuget/packages/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/Users/angela/.nuget/packages/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/Users/angela/.nuget/packages/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -170,7 +170,7 @@
     "/Users/angela/.nuget/packages/xunit.core/2.4.2/xunit.core.2.4.2.nupkg.sha512",
     "/Users/angela/.nuget/packages/xunit.extensibility.core/2.4.2/xunit.extensibility.core.2.4.2.nupkg.sha512",
     "/Users/angela/.nuget/packages/xunit.extensibility.execution/2.4.2/xunit.extensibility.execution.2.4.2.nupkg.sha512",
-    "/Users/angela/.nuget/packages/xunit.runner.visualstudio/2.4.5/xunit.runner.visualstudio.2.4.5.nupkg.sha512"
+    "/Users/angela/.nuget/packages/xunit.runner.visualstudio/2.4.3/xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
   "logs": []
 }

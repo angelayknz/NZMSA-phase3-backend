@@ -11,13 +11,12 @@
           "BlazorEcommerce.Client": "1.0.0",
           "BlazorEcommerce.Server": "1.0.0",
           "BlazorEcommerce.Shared": "1.0.0",
-          "Microsoft.NET.Test.Sdk": "17.3.1",
+          "Microsoft.NET.Test.Sdk": "16.11.0",
           "Moq": "4.18.2",
           "bunit": "1.9.8",
-          "bunit.web": "1.9.8",
-          "coverlet.collector": "3.1.2",
+          "coverlet.collector": "3.1.0",
           "xunit": "2.4.2",
-          "xunit.runner.visualstudio": "2.4.5"
+          "xunit.runner.visualstudio": "2.4.3"
         },
         "runtime": {
           "UnitTest.dll": {}
@@ -121,7 +120,7 @@
           }
         }
       },
-      "coverlet.collector/3.1.2": {},
+      "coverlet.collector/3.1.0": {},
       "Microsoft.AspNetCore.Authorization/6.0.8": {
         "dependencies": {
           "Microsoft.AspNetCore.Metadata": "6.0.8",
@@ -229,11 +228,11 @@
           }
         }
       },
-      "Microsoft.CodeCoverage/17.3.1": {
+      "Microsoft.CodeCoverage/16.11.0": {
         "runtime": {
           "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
             "assemblyVersion": "15.0.0.0",
-            "fileVersion": "17.300.622.32707"
+            "fileVersion": "16.1000.21.27002"
           }
         }
       },
@@ -533,10 +532,10 @@
           }
         }
       },
-      "Microsoft.NET.Test.Sdk/17.3.1": {
+      "Microsoft.NET.Test.Sdk/16.11.0": {
         "dependencies": {
-          "Microsoft.CodeCoverage": "17.3.1",
-          "Microsoft.TestPlatform.TestHost": "17.3.1"
+          "Microsoft.CodeCoverage": "16.11.0",
+          "Microsoft.TestPlatform.TestHost": "16.11.0"
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {},
@@ -549,9 +548,9 @@
           }
         }
       },
-      "Microsoft.TestPlatform.ObjectModel/17.3.1": {
+      "Microsoft.TestPlatform.ObjectModel/16.11.0": {
         "dependencies": {
-          "NuGet.Frameworks": "5.11.0",
+          "NuGet.Frameworks": "5.0.0",
           "System.Reflection.Metadata": "1.6.0"
         },
         "runtime": {
@@ -649,9 +648,9 @@
           }
         }
       },
-      "Microsoft.TestPlatform.TestHost/17.3.1": {
+      "Microsoft.TestPlatform.TestHost/16.11.0": {
         "dependencies": {
-          "Microsoft.TestPlatform.ObjectModel": "17.3.1",
+          "Microsoft.TestPlatform.ObjectModel": "16.11.0",
           "Newtonsoft.Json": "9.0.1"
         },
         "runtime": {
@@ -919,11 +918,11 @@
           }
         }
       },
-      "NuGet.Frameworks/5.11.0": {
+      "NuGet.Frameworks/5.0.0": {
         "runtime": {
           "lib/netstandard2.0/NuGet.Frameworks.dll": {
-            "assemblyVersion": "5.11.0.10",
-            "fileVersion": "5.11.0.10"
+            "assemblyVersion": "5.0.0.6",
+            "fileVersion": "5.0.0.5923"
           }
         }
       },
@@ -1785,7 +1784,7 @@
           }
         }
       },
-      "xunit.runner.visualstudio/2.4.5": {},
+      "xunit.runner.visualstudio/2.4.3": {},
       "BlazorEcommerce.Client/1.0.0": {
         "dependencies": {
           "BlazorEcommerce.Shared": "1.0.0",
@@ -1879,12 +1878,12 @@
       "path": "castle.core/5.1.0",
       "hashPath": "castle.core.5.1.0.nupkg.sha512"
     },
-    "coverlet.collector/3.1.2": {
+    "coverlet.collector/3.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wuLDIDKD5XMt0A7lE31JPenT7QQwZPFkP5rRpdJeblyXZ9MGLI8rYjvm5fvAKln+2/X+4IxxQDxBtwdrqKNLZw==",
-      "path": "coverlet.collector/3.1.2",
-      "hashPath": "coverlet.collector.3.1.2.nupkg.sha512"
+      "sha512": "sha512-YzYqSRrjoP5lULBhTDcTOjuM4IDPPi6PhFsl4w8EI4WdZhE6llt7E38Tg4CHyrS+QKwyu1+9OwkdDgluOdoBTw==",
+      "path": "coverlet.collector/3.1.0",
+      "hashPath": "coverlet.collector.3.1.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/6.0.8": {
       "type": "package",
@@ -1956,12 +1955,12 @@
       "path": "microsoft.aspnetcore.metadata/6.0.8",
       "hashPath": "microsoft.aspnetcore.metadata.6.0.8.nupkg.sha512"
     },
-    "Microsoft.CodeCoverage/17.3.1": {
+    "Microsoft.CodeCoverage/16.11.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-WqB7Ik4v8ku0Y9HZShqTStZdq8R1lyhsZr7IMp8zV/OcL5sHVYvlMnardQR+SDQc3dmbniCIl9mYxYM+V7x8MA==",
-      "path": "microsoft.codecoverage/17.3.1",
-      "hashPath": "microsoft.codecoverage.17.3.1.nupkg.sha512"
+      "sha512": "sha512-wf6lpAeCqP0KFfbDVtfL50lr7jY1gq0+0oSphyksfLOEygMDXqnaxHK5LPFtMEhYSEtgXdNyXNnEddOqQQUdlQ==",
+      "path": "microsoft.codecoverage/16.11.0",
+      "hashPath": "microsoft.codecoverage.16.11.0.nupkg.sha512"
     },
     "Microsoft.CSharp/4.5.0": {
       "type": "package",
@@ -2201,12 +2200,12 @@
       "path": "microsoft.jsinterop.webassembly/6.0.8",
       "hashPath": "microsoft.jsinterop.webassembly.6.0.8.nupkg.sha512"
     },
-    "Microsoft.NET.Test.Sdk/17.3.1": {
+    "Microsoft.NET.Test.Sdk/16.11.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jH9W5uYannaJ3HhrPBkzSidf3WkqP6XI+Yke0ODYVuFWM6GLVtBAyNgXvU/uQXPBsHq4aysLTsrN1FvG2hlKoQ==",
-      "path": "microsoft.net.test.sdk/17.3.1",
-      "hashPath": "microsoft.net.test.sdk.17.3.1.nupkg.sha512"
+      "sha512": "sha512-f4mbG1SUSkNWF5p7B3Y8ZxMsvKhxCmpZhdl+w6tMtLSUGE7Izi1syU6TkmKOvB2BV66pdbENConFAISOix4ohQ==",
+      "path": "microsoft.net.test.sdk/16.11.0",
+      "hashPath": "microsoft.net.test.sdk.16.11.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "type": "package",
@@ -2229,19 +2228,19 @@
       "path": "microsoft.openapi/1.2.3",
       "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
     },
-    "Microsoft.TestPlatform.ObjectModel/17.3.1": {
+    "Microsoft.TestPlatform.ObjectModel/16.11.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-n1WSFCMiFt6KmD5JzV+Wye5Ntomez3YP2+d15bu5PS5Z1U0g+V7VBLdJIaJRnahz5BsXJDTnLYNVOUdntwjx6Q==",
-      "path": "microsoft.testplatform.objectmodel/17.3.1",
-      "hashPath": "microsoft.testplatform.objectmodel.17.3.1.nupkg.sha512"
+      "sha512": "sha512-EiknJx9N9Z30gs7R+HHhki7fA8EiiM3pwD1vkw3bFsBC8kdVq/O7mHf1hrg5aJp+ASO6BoOzQueD2ysfTOy/Bg==",
+      "path": "microsoft.testplatform.objectmodel/16.11.0",
+      "hashPath": "microsoft.testplatform.objectmodel.16.11.0.nupkg.sha512"
     },
-    "Microsoft.TestPlatform.TestHost/17.3.1": {
+    "Microsoft.TestPlatform.TestHost/16.11.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-co/GMz6rGxpzn2aJYTDDim61HvEk+SHBVtbXnu2RSrz20HxkaraEh0kltCsMkmLAX/6Hz5sa6NquLngBlURTow==",
-      "path": "microsoft.testplatform.testhost/17.3.1",
-      "hashPath": "microsoft.testplatform.testhost.17.3.1.nupkg.sha512"
+      "sha512": "sha512-/Q+R0EcCJE8JaYCk+bGReicw/xrB0HhecrYrUcLbn95BnAlaTJrZhoLkUhvtKTAVtqX/AIKWXYtutiU/Q6QUgg==",
+      "path": "microsoft.testplatform.testhost/16.11.0",
+      "hashPath": "microsoft.testplatform.testhost.16.11.0.nupkg.sha512"
     },
     "Microsoft.Win32.Primitives/4.3.0": {
       "type": "package",
@@ -2285,12 +2284,12 @@
       "path": "newtonsoft.json/9.0.1",
       "hashPath": "newtonsoft.json.9.0.1.nupkg.sha512"
     },
-    "NuGet.Frameworks/5.11.0": {
+    "NuGet.Frameworks/5.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-eaiXkUjC4NPcquGWzAGMXjuxvLwc6XGKMptSyOGQeT0X70BUZObuybJFZLA0OfTdueLd3US23NBPTBb6iF3V1Q==",
-      "path": "nuget.frameworks/5.11.0",
-      "hashPath": "nuget.frameworks.5.11.0.nupkg.sha512"
+      "sha512": "sha512-c5JVjuVAm4f7E9Vj+v09Z9s2ZsqFDjBpcsyS3M9xRo0bEdm/LVZSzLxxNvfvAwRiiE8nwe1h2G4OwiwlzFKXlA==",
+      "path": "nuget.frameworks/5.0.0",
+      "hashPath": "nuget.frameworks.5.0.0.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",
@@ -2985,12 +2984,12 @@
       "path": "xunit.extensibility.execution/2.4.2",
       "hashPath": "xunit.extensibility.execution.2.4.2.nupkg.sha512"
     },
-    "xunit.runner.visualstudio/2.4.5": {
+    "xunit.runner.visualstudio/2.4.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-OwHamvBdUKgqsXfBzWiCW/O98BTx81UKzx2bieIOQI7CZFE5NEQZGi8PBQGIKawDW96xeRffiNf20SjfC0x9hw==",
-      "path": "xunit.runner.visualstudio/2.4.5",
-      "hashPath": "xunit.runner.visualstudio.2.4.5.nupkg.sha512"
+      "sha512": "sha512-kZZSmOmKA8OBlAJaquPXnJJLM9RwQ27H7BMVqfMLUcTi9xHinWGJiWksa3D4NEtz0wZ/nxd2mogObvBgJKCRhQ==",
+      "path": "xunit.runner.visualstudio/2.4.3",
+      "hashPath": "xunit.runner.visualstudio.2.4.3.nupkg.sha512"
     },
     "BlazorEcommerce.Client/1.0.0": {
       "type": "project",
